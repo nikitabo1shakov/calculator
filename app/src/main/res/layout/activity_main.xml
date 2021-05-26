@@ -7,7 +7,7 @@
         android:id="@+id/image_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/cardview_dark_background" />
+        android:background="@color/dim_gray" />
 
     <GridLayout
         android:layout_width="wrap_content"
@@ -21,91 +21,138 @@
             android:layout_height="wrap_content"
             android:layout_columnSpan="2"
             android:layout_gravity="fill_horizontal"
-            android:text="@string/key_cancel" />
+            android:layout_marginEnd="7dp"
+            android:backgroundTint="@color/gainsboro"
+            android:text="@string/key_cancel"
+            android:textColor="@color/black"
+            android:textSize="21sp" />
 
         <Button
             android:id="@+id/button_percentages"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/key_percentages" />
+            android:layout_marginEnd="7dp"
+            android:backgroundTint="@color/gainsboro"
+            android:text="@string/key_percentages"
+            android:textColor="@color/black"
+            android:textSize="21sp" />
 
         <Button
             android:id="@+id/button_division"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/key_division" />
+            android:backgroundTint="@color/gainsboro"
+            android:text="@string/key_division"
+            android:textColor="@color/black"
+            android:textSize="21sp" />
 
         <Button
             android:id="@+id/button_7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/key_7" />
+            android:layout_marginEnd="7dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/key_7"
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/button_8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/key_8" />
+            android:layout_marginEnd="7dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/key_8"
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/button_9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/key_9" />
+            android:layout_marginEnd="7dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/key_9"
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/button_multiplication"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/key_multiplication" />
+            android:backgroundTint="@color/gainsboro"
+            android:text="@string/key_multiplication"
+            android:textColor="@color/black"
+            android:textSize="21sp" />
 
         <Button
             android:id="@+id/button_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/key_4" />
+            android:layout_marginEnd="7dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/key_4"
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/button_5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/key_5" />
+            android:layout_marginEnd="7dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/key_5"
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/button_6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/key_6" />
+            android:layout_marginEnd="7dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/key_6"
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/button_subtraction"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/key_subtraction" />
+            android:backgroundTint="@color/gainsboro"
+            android:text="@string/key_subtraction"
+            android:textColor="@color/black"
+            android:textSize="21sp" />
 
         <Button
             android:id="@+id/button_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/key_1" />
+            android:layout_marginEnd="7dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/key_1"
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/button_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/key_2" />
+            android:layout_marginEnd="7dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/key_2"
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/button_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/key_3" />
+            android:layout_marginEnd="7dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/key_3"
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/button_addition"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/key_addition" />
+            android:backgroundTint="@color/gainsboro"
+            android:text="@string/key_addition"
+            android:textColor="@color/black"
+            android:textSize="21sp" />
 
         <Button
             android:id="@+id/button_0"
@@ -113,18 +160,27 @@
             android:layout_height="wrap_content"
             android:layout_columnSpan="2"
             android:layout_gravity="fill_horizontal"
-            android:text="@string/key_0" />
+            android:layout_marginEnd="7dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/key_0"
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/button_dot"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/key_dot" />
+            android:layout_marginEnd="7dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/key_dot"
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/button_equally"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/key_equally" />
+            android:backgroundTint="@color/crimson"
+            android:text="@string/key_equally"
+            android:textColor="@color/black"
+            android:textSize="21sp" />
     </GridLayout>
 </FrameLayout>
