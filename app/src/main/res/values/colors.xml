@@ -11,4 +11,8 @@
     <color name="crimson">#DC143C</color>
     <color name="silver">#C0C0C0</color>
     <color name="dim_gray">#696969</color>
+    <color name="pale_green">#98FB98</color>
+    <color name="moccasin">#FFE4B5</color>
+    <color name="light_yellow">#FFFFE0</color>
+    <color name="peach_puff">#FFDAB9</color>
 </resources>
