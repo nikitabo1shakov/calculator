@@ -4,7 +4,7 @@
     android:layout_height="match_parent">
 
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/image_view"
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/light_yellow" />
@@ -15,11 +15,20 @@
         android:layout_gravity="center"
         android:columnCount="4">
 
-        <Button
-            android:id="@+id/button_cancel"
+        <TextView
+            android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_columnSpan="2"
+            android:layout_columnSpan="4"
+            android:layout_marginStart="15dp"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="3"
             android:layout_gravity="fill_horizontal"
             android:layout_marginEnd="@dimen/key_5dp"
             android:backgroundTint="@color/moccasin"
@@ -27,16 +36,7 @@
             android:textColor="@color/black" />
 
         <Button
-            android:id="@+id/button_percentages"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="@dimen/key_5dp"
-            android:backgroundTint="@color/moccasin"
-            android:text="@string/key_percentages"
-            android:textColor="@color/black" />
-
-        <Button
-            android:id="@+id/button_division"
+            android:id="@+id/buttonDivision"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/moccasin"
@@ -71,7 +71,7 @@
             android:textColor="@color/black" />
 
         <Button
-            android:id="@+id/button_multiplication"
+            android:id="@+id/buttonMultiplication"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/moccasin"
@@ -106,7 +106,7 @@
             android:textColor="@color/black" />
 
         <Button
-            android:id="@+id/button_subtraction"
+            android:id="@+id/buttonSubtraction"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/moccasin"
@@ -141,7 +141,7 @@
             android:textColor="@color/black" />
 
         <Button
-            android:id="@+id/button_addition"
+            android:id="@+id/buttonAddition"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/moccasin"
@@ -160,7 +160,7 @@
             android:textColor="@color/black" />
 
         <Button
-            android:id="@+id/button_dot"
+            android:id="@+id/buttonDot"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/key_5dp"
@@ -169,7 +169,7 @@
             android:textColor="@color/black" />
 
         <Button
-            android:id="@+id/button_equally"
+            android:id="@+id/buttonEqually"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/peach_puff"

@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name">Calculator</string>
     <string name="key_cancel">C</string>
-    <string name="key_percentages">%</string>
-    <string name="key_division">÷</string>
+    <string name="key_division">/</string>
     <string name="key_7">7</string>
     <string name="key_8">8</string>
     <string name="key_9">9</string>
