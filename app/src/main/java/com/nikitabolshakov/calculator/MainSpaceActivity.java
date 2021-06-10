@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.util.TypedValue;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class MainSpaceActivity extends AppCompatActivity {
 
     private Button button_0;
     private Button button_1;
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_on_grid_layout);
+        setContentView(R.layout.activity_main_space);
         viewSetup();
 
         button_0.setOnClickListener(view -> {
